@@ -1,0 +1,36 @@
+.App {
+  background-color: rgba(0, 0, 0, 0.847);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.blur {
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+
+.startup {
+  height: 80vh;
+}
+
+.board {
+  position: relative;
+}
+
+.disable {
+  /* background-color: red; */
+  position: absolute;
+  top: 0;
+  left: 40%;
+  right: 0;
+  bottom: 0;
+}
+
+.hidden {
+  display: none;
+}
